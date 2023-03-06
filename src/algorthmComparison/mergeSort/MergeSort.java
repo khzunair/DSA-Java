@@ -49,7 +49,7 @@ public class MergeSort {
 		
 		public static void main(String[] args) {
 			
-			int[] arr = {2,3,2,2,65,3,332,23,8};
+			int[] arr = {2,3,2,2,65,3,332,23,8,6,-1,22,3,2,3,1,23};
 
 			mergeSort(arr, 0, arr.length-1);
 			printArray(arr);

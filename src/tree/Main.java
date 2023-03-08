@@ -5,23 +5,26 @@ public class Main {
 	public static void main(String[] args) {
 		
 //		Drinks System
-		TreeNode drinks  = new TreeNode("DRINKS");
-		TreeNode cold    = new TreeNode("COLD DRINKS");
-		TreeNode hot     = new TreeNode("HOT DRINKS");
-		TreeNode tea     = new TreeNode("TEA");
-		TreeNode coffee  = new TreeNode("COFFEE");
-		TreeNode wine    = new TreeNode("WINE");
-		TreeNode beer    = new TreeNode("BEER");
+		TreeNode greatGrandFather  = new TreeNode("GREAT-GRAND-FATHER");
+		TreeNode grandFather    = new TreeNode("GRAND-FATHER");
+		TreeNode father     = new TreeNode("FATHER");
+		TreeNode Aunt     = new TreeNode("Aunt");
+		TreeNode Uncle     = new TreeNode("Uncle");
+		TreeNode me     = new TreeNode("ME");
+		TreeNode sister  = new TreeNode("SISTER");
+		TreeNode brother    = new TreeNode("BROTHER");
+
 		
 //		Drink System Child
-		drinks.addChild(cold);
-		drinks.addChild(hot);
-		hot.addChild(tea);
-		hot.addChild(coffee);
-		cold.addChild(wine);
-		cold.addChild(beer);
+		greatGrandFather.addChild(grandFather);
+		grandFather.addChild(father);
+		grandFather.addChild(Aunt);
+		grandFather.addChild(Uncle);
+		father.addChild(me);
+		father.addChild(sister);
+		father.addChild(brother);
 		
-		System.out.println(drinks.print(0));
+		System.out.println(greatGrandFather.print(0));
 	}
 	
 

@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		BaseToDecimal object = new BaseToDecimal();
 		
-		object.decimalToBase(50, 8);
+		object.decimalToBase(456, 5);
 
 	}
 

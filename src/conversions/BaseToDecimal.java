@@ -13,19 +13,14 @@ public class BaseToDecimal {
 		
 		stack.push(remainder);
 //		System.out.println("I am first "+ remainder);
-		
 		while(divide >= base ) {
-
 //			Calculating remainder first because we are saving divide value into the divide after dividing
 			remainder   = divide % base;
 			divide 	 	= divide / base;
 			stack.push(remainder);
-//			System.out.println("I am Inner "+remainder);
-			
+//			System.out.println("I am Inner "+remainder);		
 			
 		}
-		
-		
 		stack.push(divide);
 //		System.out.println("I am last divide "+ divide);
 		

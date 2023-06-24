@@ -1,0 +1,29 @@
+OneDArray
+http://localhost:8080/onedarray/traverse
+http://localhost:8080/onedarray/insert/7878
+
+TwoDimensional Array
+http://localhost:8080/twodimensionalarray/traverse
+/search/{valueToBeSearched}
+/delete/{row},{column}
+/insert/{row},{column}/{valueToBeInserted}
+/insertRecord 
+  
+LinkedList
+http://localhost:8080/linkedList/insert/GYSGYGDGUHHHI
+http://localhost:8080/linkedList/traverse
+
+InfixToPostFix
+http://localhost:8080/infix-to-postfix/convert
+Body of Post Request: 12+3-2*33
+http://localhost:8080/infix-to-postfix/evaluate
+
+
+Stack 
+http://localhost:8080/stack-of-array/createStack/3
+http://localhost:8080/stack-of-array/push/2
+http://localhost:8080/stack-of-array/pop
+/peek
+
+Algorithms Comparison
+
